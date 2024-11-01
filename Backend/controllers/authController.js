@@ -16,18 +16,6 @@ const signup = async (req, res) => {
         .json({ message: "user already exit u can login", success: false });
     }
 
-    // const formattedNumber = `whatsapp:+${number}`; // Make sure number includes country code and 'whatsapp:' prefix
-
-    // // Uncomment below to send WhatsApp message
-    // try {
-    //   const messageContent = `Hello ${name}, welcome to our platform!`;
-    //   await sendWhatsApp(formattedNumber, name, messageContent);
-    //   console.log("WhatsApp message sent successfully");
-    // } catch (whatsappError) {
-    //   console.error("Error while sending WhatsApp message:", whatsappError);
-    // }
-
-
     await sendEmail(
       email,
       name,
