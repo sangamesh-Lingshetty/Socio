@@ -51,7 +51,7 @@ const UserData = () => {
     }
   
     try {
-      const url = "https://socio-ivory.vercel.app/user/userdata";
+      const url = "https://socio-k3wcbb1ct-sangameshs-projects.vercel.app/user/userdata";
       const response = await fetch(url, {
         method: "POST",
         headers: {
