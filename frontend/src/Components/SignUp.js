@@ -30,7 +30,7 @@ const SignUp = ({onSuccess}) => {
       return handleError("error required all field");
     }
     try {
-      const url = "https://socio-omega.vercel.app/user/signup";
+      const url = "https://socio-k3wcbb1ct-sangameshs-projects.vercel.app/signup";
       const response = await fetch(url, {
         method: "POST",
         headers: {
