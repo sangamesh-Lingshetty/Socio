@@ -30,7 +30,7 @@ const Login = ({onSuccess}) => {
     }
     
     try{
-        const url = "https://socio-omega.vercel.app/user/login";
+        const url = "https://socio-k3wcbb1ct-sangameshs-projects.vercel.app/user/login";
         const response = await fetch(url,{
             method:'POST',
             headers:{
